@@ -31,7 +31,7 @@ const Homepage = () => {
                             <div className="dropdown-content">
                                 <a href="#option1">Profil Saya</a>
                                 <a href="#option2">Ubah Premium</a>
-                                <a href="/login">Keluar</a>
+                                <a href="/login#" >Keluar</a>
                             </div>
                         )}
                     </div>
