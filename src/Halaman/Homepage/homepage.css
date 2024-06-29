@@ -1,0 +1,594 @@
+
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.hp-movie {
+    width: 25.15px;
+    height: 21.47px;
+    top: 2.36px;
+    left: 1.94px;
+}
+
+.header-avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown {
+    
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: grid;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.hp-homepage {
+    width: 100%;
+    height: 500px;
+    background-image: url('DutyAfterSchool.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 64px; 
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}   
+
+.hp-homepage-component {
+    width: 1280px;
+    height: 233px;
+    gap: 40px;
+    opacity: 0px;
+    position : absolute;
+    top: 50%;
+    
+}
+
+.hp-homepage-text {
+    width: 668px;
+    height: 148px;
+    gap: 20px;
+    opacity: 0px;
+    text-align: left;
+}
+
+.hp-homepage-utility {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hp-homepage-utility-1{
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+    
+}
+
+.hp-mulai {
+    width: 93px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 48px;
+    opacity: 0px;
+    background-color: rgba(15, 30, 147, 1);
+    color: white;
+}
+
+.hp-selengkapnya {
+    width: 185px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 48px;
+    opacity: 0px;
+    background: rgba(34, 40, 42, 1);
+    color: white;
+}
+
+.hp-18 {
+    width: 52px;
+    height: 45px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 24px;
+    opacity: 0px;
+    border: 1px solid rgba(193, 194, 196, 1)
+}
+
+.hp-melanjutkan {
+    display: flex;
+    margin-top: 45%;
+    text-align: left;
+    padding-left: 10px;
+    width: 1,440px;
+    height: 309px;
+    top: 681px;
+    padding: 40px 80px 40px 80px;
+    gap: 32px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+
+
+}
+
+.hp-melanjutkan-tonton {
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+    margin-top: -25%;
+    top: 681px;
+    padding: 40px 80px 40px 80px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+
+.hp-dont {
+    background-image: url('Dont.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.hp-dont-text {
+    display: flex;
+    margin-top: 114px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18px; 
+    padding: 10px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+
+.hp-blue {
+    background-image: url('Blue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.hp-blue-text {
+    display: flex;
+    margin-top: 114px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18px; 
+    padding: 10px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.hp-the {
+    background-image: url('TheBat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.hp-the-text {
+    display: flex;
+    margin-top: 114px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18px; 
+    padding: 10px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.hp-a {
+    background-image: url('AMan.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.hp-a-text {
+    display: flex;
+    margin-top: 114px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18px; 
+    padding: 10px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.hp-top-rating {
+    width: 1,440px;
+    height: 512px;
+    top: 990px;
+    padding: 40px 80px 40px 80px;
+    gap: 32px;
+    opacity: 0px;
+    margin-top: -5%;
+}
+
+.hp-top-text {
+    width: 600px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+    text-align: left;
+}
+
+.hp-top-rating-component {
+    display: flex;
+    gap : 28px;
+}
+
+.hp-top-rating-img1 {
+    background-image: url('Suzume.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+
+}
+
+.hp-top-rating-img2 {
+    background-image: url('Jurassic.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-top-rating-img3 {
+    background-image: url('Sonic.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-top-rating-img4 {
+    background-image: url('AOUAD.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-top-rating-img5 {
+    background-image: url('BigHero6.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-trending {
+    width: 1,440px;
+    height: 512px;
+    top: 990px;
+    padding: 40px 80px 40px 80px;
+    gap: 32px;
+    opacity: 0px;
+    margin-top: -5%;
+}
+
+.hp-trending-text {
+    width: 600px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+    text-align: left;
+}
+
+.hp-trending-component {
+    display: flex;
+    gap : 28px;
+}
+
+.hp-trending-img1 {
+    background-image: url('Tomorrow.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-trending-img2 {
+    background-image: url('AntMan.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-trending-img3 {
+    background-image: url('Guardian.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-trending-img4 {
+    background-image: url('AManCover.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-trending-img5 {
+    background-image: url('LittleMermaid.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-rilis {
+    width: 1,440px;
+    height: 512px;
+    top: 990px;
+    padding: 40px 80px 40px 80px;
+    gap: 32px;
+    opacity: 0px;
+    margin-top: -5%;
+}
+
+.hp-rilis-text {
+    width: 600px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+    text-align: left;
+}
+
+.hp-rilis-component {
+    display: flex;
+    gap : 28px;
+}
+
+.hp-rilis-img1 {
+    background-image: url('LittleMermaid.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-rilis-img2 {
+    background-image: url('DutyAfterSchoolCover.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-rilis-img3 {
+    background-image: url('BigHero6.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-rilis-img4 {
+    background-image: url('AllOfUsAreDead.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-rilis-img5 {
+    background-image: url('Missing.png');
+    background-size: cover;
+    width: 234px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.hp-footer {
+    width: 130%;
+    
+    top: 2606px;
+    padding: 60px 80px 60px 80px;
+    gap: 20px;
+    border-top: 1px solid rgba(231, 227, 252, 0.23);
+    opacity: 0px;
+}
+
+.hp-footer-component {
+    width: 1,280px;
+    
+    gap: 0px;
+    display: flex;
+    justify: space-between;
+    opacity: 0px;
+}
+
+.hp-footer-logo {
+    width: 251px;
+    height: 91px;
+    gap: 26px;
+    opacity: 0px;
+}
+
+.hp-footer-logo-text {
+    display: flex;
+    margin-bottom: -50px;
+    margin-top: -40px;
+}
+
+.hp-footer-movie {
+    width: 50px;
+    height: 44px;
+    padding-top: 58px;
+
+}
+
+.hp-footer-chill {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+}
+
+.hp-footer-text {
+    width: 1000px;
+    
+    gap: 160px;
+    opacity: 0px;
+    display: flex;
+    justify: space-between
+}
+
+.hp-footer-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hp-footer-text ul {
+    list-style-type: none;
+}
+
+.hp-footer-genre {
+    width: 1000px;
+    
+    gap: 15px;
+    opacity: 0px;
+    display: flex;
+    justify: space-between;
+}
+
+.hp-footer-genre-list {
+    margin-top: -40px;
+}
+
+.hp-footer-bantuan {
+    width: 1400px;
+    height: 164px;
+    gap: 15px;
+    opacity: 0px;
+}
+
+.hp-footer-bantuan-list {
+    margin-top: -40px;
+}
+
+a {
+    text-decoration: none;
+}
