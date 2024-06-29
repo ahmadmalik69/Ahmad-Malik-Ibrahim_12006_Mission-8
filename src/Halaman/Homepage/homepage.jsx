@@ -2,11 +2,12 @@ import movie from './movie.png';
 import avatar from './avatar.png';
 import './homepage.css';
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Homepage = () => {
     const [isOpen, setIsOpen] = useState(false);
-
+    const navigate = useNavigate()
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
@@ -29,9 +30,9 @@ const Homepage = () => {
                         </button>
                         {isOpen && (
                             <div className="dropdown-content">
-                                <a href="#option1">Profil Saya</a>
-                                <a href="#option2">Ubah Premium</a>
-                                <a href="/login#" >Keluar</a>
+                                <button>Profil Saya</button>
+                                <button>Ubah Premium</button>
+                                <button type='submit' onClick={() => navigate('/login')}>Keluar</button>
                             </div>
                         )}
                     </div>
