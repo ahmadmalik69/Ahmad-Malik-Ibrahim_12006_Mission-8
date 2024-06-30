@@ -65,7 +65,7 @@
 .hp-homepage {
     width: 100%;
     height: 500px;
-    background-image: url('DutyAfterSchool.png');
+    background-image: url('../../images/DutyAfterSchool.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -169,7 +169,7 @@
 }
 
 .hp-dont {
-    background-image: url('Dont.png');
+    background-image: url('../../images/Dont.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 302px;
@@ -195,7 +195,7 @@
 
 
 .hp-blue {
-    background-image: url('Blue.png');
+    background-image: url('../../images/Blue.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 302px;
@@ -220,7 +220,7 @@
 }
 
 .hp-the {
-    background-image: url('TheBat.png');
+    background-image: url('../../images/TheBat.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 302px;
@@ -245,7 +245,7 @@
 }
 
 .hp-a {
-    background-image: url('AMan.png');
+    background-image: url('../../images/AMan.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 302px;
@@ -296,19 +296,40 @@
     gap : 28px;
 }
 
+
+
 .hp-top-rating-img1 {
-    background-image: url('Suzume.png');
+    background-image: url('../../images/Suzume.png');
     background-size: cover;
     width: 234px;
     height: 365px;
     gap: 0px;
     border-radius: 8px;
     opacity: 0px;
+}
 
+.card-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hp-top-rating-img1 :hover .hp-top-rating-img1-hover {
+    display: block;
+}
+
+.hp-top-rating-img1-hover {
+    display: none;
+    background-image: url('../../images/Suzume.png');
+    background-size: cover;
+    width: 408px;
+    height: 460px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
 }
 
 .hp-top-rating-img2 {
-    background-image: url('Jurassic.png');
+    background-image: url('../../images/Jurassic.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -318,7 +339,7 @@
 }
 
 .hp-top-rating-img3 {
-    background-image: url('Sonic.png');
+    background-image: url('../../images/Sonic.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -328,7 +349,7 @@
 }
 
 .hp-top-rating-img4 {
-    background-image: url('AOUAD.png');
+    background-image: url('../../images/AOUAD.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -338,7 +359,7 @@
 }
 
 .hp-top-rating-img5 {
-    background-image: url('BigHero6.png');
+    background-image: url('../../images/BigHero6.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -375,7 +396,7 @@
 }
 
 .hp-trending-img1 {
-    background-image: url('Tomorrow.png');
+    background-image: url('../../images/Tomorrow.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -385,7 +406,7 @@
 }
 
 .hp-trending-img2 {
-    background-image: url('AntMan.png');
+    background-image: url('../../images/AntMan.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -395,7 +416,7 @@
 }
 
 .hp-trending-img3 {
-    background-image: url('Guardian.png');
+    background-image: url('../../images/Guardian.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -405,7 +426,7 @@
 }
 
 .hp-trending-img4 {
-    background-image: url('AManCover.png');
+    background-image: url('../../images/AManCover.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -415,7 +436,7 @@
 }
 
 .hp-trending-img5 {
-    background-image: url('LittleMermaid.png');
+    background-image: url('../../images/LittleMermaid.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -452,7 +473,7 @@
 }
 
 .hp-rilis-img1 {
-    background-image: url('LittleMermaid.png');
+    background-image: url('../../images/LittleMermaid.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -462,7 +483,7 @@
 }
 
 .hp-rilis-img2 {
-    background-image: url('DutyAfterSchoolCover.png');
+    background-image: url('../../images/DutyAfterSchoolCover.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -472,7 +493,7 @@
 }
 
 .hp-rilis-img3 {
-    background-image: url('BigHero6.png');
+    background-image: url('../../images/BigHero6.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -482,7 +503,7 @@
 }
 
 .hp-rilis-img4 {
-    background-image: url('AllOfUsAreDead.png');
+    background-image: url('../../images/AllOfUsAreDead.png');
     background-size: cover;
     width: 234px;
     height: 365px;
@@ -492,7 +513,7 @@
 }
 
 .hp-rilis-img5 {
-    background-image: url('Missing.png');
+    background-image: url('../../images/Missing.png');
     background-size: cover;
     width: 234px;
     height: 365px;
