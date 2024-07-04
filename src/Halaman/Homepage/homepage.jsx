@@ -10,24 +10,20 @@ import CardButton from '../../Element/cardButton';
 
 const Homepage = () => {
     const [number, setNumber] = useState(() => {
-        // Initialize state with value from localStorage
         const savedNumber = localStorage.getItem('Number');
         return savedNumber !== null ? parseInt(savedNumber, 10) : 0;
     });
 
     const [clickedCards, setClickedCards] = useState(() => {
-        // Initialize state with value from localStorage
         const savedClickedCards = localStorage.getItem('clickedCards');
         return savedClickedCards ? JSON.parse(savedClickedCards) : {};
     });
 
     useEffect(() => {
-        // Update localStorage whenever `number` changes
         localStorage.setItem('Number', number);
     }, [number]);
 
     useEffect(() => {
-        // Update localStorage whenever `clickedCards` changes
         localStorage.setItem('clickedCards', JSON.stringify(clickedCards));
     }, [clickedCards]);
 
