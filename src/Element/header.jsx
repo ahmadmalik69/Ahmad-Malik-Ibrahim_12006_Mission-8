@@ -1,9 +1,10 @@
 import movie from '../images/movie.png';
 import avatar from '../images/avatar.png';
+import './element.css'
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate()
     const toggleDropdown = () => {
@@ -13,9 +14,14 @@ const Header = () => {
         <div className='header'>
                 <ul className='header-list'>
                     <li><img src={movie} alt="" className='hp-movie' />CHILL</li>
-                    <li>Series</li>
-                    <li>Film</li>
-                    <li>Daftar Saya</li>
+                    <button className='button-header'>Series</button>
+                    <button className='button-header'>Film</button>
+                    <button 
+                    type='submit' 
+                    onClick={() => navigate('/daftarsaya')} 
+                    className='button-header'>
+                        Daftar Saya = {props.childrenDaftar}
+                    </button>
                 </ul>
                 <div className='header-avatar'>
                     <img src={avatar} alt="avatar" className='avatar'/>

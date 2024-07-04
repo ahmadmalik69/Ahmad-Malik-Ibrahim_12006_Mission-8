@@ -8,6 +8,8 @@ import './Halaman/Registrasi/registrasi.css'
 import Login from './Halaman/Login/login';
 import Registrasi from './Halaman/Registrasi/registrasi';
 import Homepage from './Halaman/Homepage/homepage';
+import DaftarSaya from "./Halaman/DaftarSaya/daftarSaya";
+
 
 const App = () => {
   const router = createBrowserRouter([
@@ -27,6 +29,12 @@ const App = () => {
       path: "/homepage",
       element: <Homepage />,
     },
+    {
+      path: "/daftarsaya",
+      element: <DaftarSaya />,
+
+    },
+    
   ]);
   return <RouterProvider router={router} />;
 };
