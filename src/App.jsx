@@ -9,13 +9,14 @@ import Login from './Halaman/Login/login';
 import Registrasi from './Halaman/Registrasi/registrasi';
 import Homepage from './Halaman/Homepage/homepage';
 import DaftarSaya from "./Halaman/DaftarSaya/daftarSaya";
+import Index from "./services/api";
 
 
 const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Login />,
+      element: <Index />,
     },
     {
       path: "/login",
@@ -32,8 +33,11 @@ const App = () => {
     {
       path: "/daftarsaya",
       element: <DaftarSaya />,
-
     },
+    {
+      path: "/index",
+      element: <Index />,
+    }
     
   ]);
   return <RouterProvider router={router} />;
